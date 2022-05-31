@@ -5,7 +5,7 @@ public class Main {
     long amount = 100_060;
     boolean registered = true;
 
-    service.calculate(amount, registered);
+    System.out.println(service.calculate(amount, registered));
   }
 }
 
